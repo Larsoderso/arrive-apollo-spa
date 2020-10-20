@@ -40,9 +40,12 @@ const Navbar = () => {
             fill="#00A88A"
           />
         </svg>
-        <div style={{ display: "flex", width: "160px", marginLeft: "auto" }}>
+        <div style={{ display: "flex", width: "220px", marginLeft: "auto" }}>
           <div className="am_header_cat">Docs</div>
           <div className="am_header_cat">Status</div>
+          <div className="am_header_cat">Apps</div>
+
+          <div>LD</div>
         </div>
 
         {authState.isAuthenticated && (
