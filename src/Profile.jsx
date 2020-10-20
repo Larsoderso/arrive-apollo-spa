@@ -15,7 +15,7 @@ const Profile = () => {
         setUserInfo(info);
       });
     }
-  });
+  }, [authState.isAuthenticated, authService]);
 
   if (!userInfo) {
     return (
