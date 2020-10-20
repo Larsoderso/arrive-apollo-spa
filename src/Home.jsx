@@ -5,7 +5,7 @@ const Home = () => {
   const { authState } = useOktaAuth();
 
   return (
-    authState.isAuthenticated == true && (
+    authState.isAuthenticated === true && (
       <div>
         <div
           style={{
@@ -23,6 +23,8 @@ const Home = () => {
                 id="dk0-combobox"
                 aria-live="assertive"
                 aria-owns="dk0-listbox"
+                aria-controls=""
+                aria-expanded="false"
                 role="combobox"
               >
                 API version 0.3 (latest)

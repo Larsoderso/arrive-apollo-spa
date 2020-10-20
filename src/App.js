@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, useHistory } from "react-router-dom";
 import { Security, SecureRoute, LoginCallback } from "@okta/okta-react";
-import { Container } from "semantic-ui-react";
 import config from "./config";
 import CustomLoginComponent from "./Login";
 import Navbar from "./NavBar";
