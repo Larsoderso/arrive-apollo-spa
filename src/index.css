@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+}
+
+.am_docs_sbar_header {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  color: #000;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  margin-top: 0;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+ul {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  color: #000;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
+}
+li {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.2em;
+  color: #000;
+  pointer-events: auto;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  margin-bottom: 10px;
+}
+.am_docs_sidebar {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  color: #000;
+  background-color: #fff;
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  pointer-events: auto;
+  overflow: visible;
+  left: auto;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  z-index: 0;
+  display: block;
+  max-width: 240px;
+}
+
+.am_docs_sidebar_inner {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  color: #000;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.am_docs_dropdown {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  color: #000;
+  pointer-events: auto;
+  font-size: 15px;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  outline-width: thin;
+  outline-color: #0095ff;
+  box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 32px;
+  line-height: 20px;
+  padding: 6px 32px 6px 12px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 22px;
+}
+.am_docs_header_top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  transition: height 0.2s ease;
+  box-shadow: inset 0 -1px 0 #eee;
+  display: flex;
+  flex-direction: row;
+}
+.am_docs_header_top svg {
+  margin: 12px;
+  width: 32px;
+}
+.am_docs_gen_title {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  position: relative;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+}
+.am_header_cat {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  line-height: 1.5em;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.12s ease;
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 0;
+}
+
+.am_docs_endpoint_manager {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  border-radius: 4px;
+  background: #fcfcfc;
+  font-size: 14px;
+  display: flex;
+  margin: 0 0 15px;
+  border: 1px solid #e6e6e6;
+  max-width: 100%;
+  white-space: nowrap;
+  height: 45px;
+  overflow: hidden;
+}
+.am_docs_endpoint_manager_left {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  line-height: 1.5em;
+  font-family: SFMono, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: 700;
+  color: #0095ff;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  padding: 10px 16px;
+  display: inline-block;
+  border-right: 1px solid #e6e6e6;
+}
+.am_docs_endpoint_manager_right {
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  line-height: 45px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  outline-width: thin;
+  outline-color: #0095ff;
+  max-width: 100%;
+  height: 45px;
+  overflow: hidden;
+  font-size: 12px;
+  border-radius: 3px;
+  white-space: nowrap;
+  margin: 0;
+  font-family: SFMono, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+}
