@@ -35,7 +35,7 @@ jobs:
       uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         # username
-        username: gitupload
+        username: lars
         # your sftp server
         server: 45.136.31.229
         # your sftp server port, default to 22
