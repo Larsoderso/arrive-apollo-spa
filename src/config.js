@@ -5,7 +5,7 @@ const ISSUER =
 export default {
   clientId: "0oa174wivtGpeG4QS4x7",
   issuer: ISSUER,
-  redirectUri: "https://w07sk.csb.app/implicit/callback",
+  redirectUri: "https://apollo.arrive-mobility.com/implicit/callback",
   scopes: ["openid", "profile", "email"],
   pkce: true,
   disableHttpsCheck: false
