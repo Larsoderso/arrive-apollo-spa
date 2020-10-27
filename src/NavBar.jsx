@@ -43,7 +43,13 @@ const Navbar = () => {
         <div style={{ display: "flex", width: "220px", marginLeft: "auto" }}>
           <div className="am_header_cat">Docs</div>
           <div className="am_header_cat">Status</div>
+          <div className="am_header_cat">Open Data</div>
+          <div className="am_header_cat">Use Cases</div>
+
+          {authState.isAuthenticated && (
           <div className="am_header_cat">Apps</div>
+          )}
+
 
           <div>LD</div>
         </div>
