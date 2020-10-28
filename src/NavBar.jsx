@@ -40,7 +40,7 @@ const Navbar = () => {
             fill="#00A88A"
           />
         </svg>
-        <div style={{ display: "flex", width: "220px", marginLeft: "auto" }}>
+        <div style={{ display: "flex", width: "480px", marginLeft: "auto" }}>
           <div className="am_header_cat">Docs</div>
           <div className="am_header_cat">Status</div>
           <div className="am_header_cat">Open Data</div>
