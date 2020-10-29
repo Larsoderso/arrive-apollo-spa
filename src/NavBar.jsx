@@ -42,7 +42,8 @@ const Navbar = () => {
         </svg>
         <div style={{ display: "flex", width: "480px", marginLeft: "auto" }}>
           <div className="am_header_cat">Docs</div>
-          <div className="am_header_cat">Status</div>
+          <a href="/status">
+          <div className="am_header_cat">Status</div></a>
           <div className="am_header_cat">Open Data</div>
           <div className="am_header_cat">Use Cases</div>
 

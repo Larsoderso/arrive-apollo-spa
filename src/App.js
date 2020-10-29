@@ -6,6 +6,7 @@ import CustomLoginComponent from "./Login";
 import Navbar from "./NavBar";
 import Profile from "./Profile";
 import Home from "./Home";
+import StatusPage from "./front-yard/status-page";
 
 const HasAccessToRouter = () => {
   const history = useHistory(); // example from react-router
@@ -46,7 +47,8 @@ const HasAccessToRouter = () => {
             <div style={{textAlign: 'center', paddingTop: '26px', fontSize: '20px', color: '#1B4862', fontWeight: 500}}> Design System </div>
           </div></div>
       </div>
-      
+      <Route path="/status" exact component={StatusPage} />
+
       <Route path="/" exact component={Home} />
       <Route path="/implicit/callback" component={LoginCallback} />
       <Route path="/login" exact component={CustomLoginComponent} />
