@@ -12,6 +12,8 @@ const Navbar = () => {
   return (
     <div>
       <div className="am_docs_header_top">
+      <a href="/">
+
         <svg
           width={54}
           height={26}
@@ -40,8 +42,10 @@ const Navbar = () => {
             fill="#00A88A"
           />
         </svg>
+        </a>
         <div style={{ display: "flex", width: "480px", marginLeft: "auto" }}>
-          <div className="am_header_cat">Docs</div>
+        <a href="/docs">
+          <div className="am_header_cat">Docs</div></a>
           <a href="/status">
           <div className="am_header_cat">Status</div></a>
           <div className="am_header_cat">Open Data</div>

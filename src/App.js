@@ -5,7 +5,7 @@ import config from "./config";
 import CustomLoginComponent from "./Login";
 import Navbar from "./NavBar";
 import Profile from "./Profile";
-//import Home from "./Home";
+import Home from "./Home";
 import StatusPage from "./front-yard/status-page";
 import LandingPage from "./front-yard/landing-page";
 
@@ -24,6 +24,8 @@ const HasAccessToRouter = () => {
  
       <Route path="/status" exact component={StatusPage} />
       <Route path="/" exact component={LandingPage} />
+      <Route path="/docs" exact component={Home} />
+
       <Route path="/implicit/callback" component={LoginCallback} />
       <Route path="/login" exact component={CustomLoginComponent} />
       <SecureRoute path="/profile" component={Profile} />
