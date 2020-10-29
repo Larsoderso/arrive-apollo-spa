@@ -1,9 +1,9 @@
-import { useOktaAuth } from "@okta/okta-react";
+//import { useOktaAuth } from "@okta/okta-react";
 import React from "react";
 
 
 const StatusPage = () => {
-  const { authState, authService } = useOktaAuth();
+  //const { authState, authService } = useOktaAuth();
 
  
   return (
