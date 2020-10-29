@@ -4,8 +4,6 @@ import React from "react";
 
 const LandingPage = () => {
   //const { authState, authService } = useOktaAuth();
-
- 
   return (
     <div>
     <div style={{width: '100%', height: '340px', background: '#ffffff00', padding: '2vw'}}>
@@ -36,4 +34,5 @@ const LandingPage = () => {
   </div>
   );
 };
+
 export default LandingPage;

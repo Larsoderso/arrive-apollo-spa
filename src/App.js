@@ -23,7 +23,6 @@ const HasAccessToRouter = () => {
 
  
       <Route path="/status" exact component={StatusPage} />
-
       <Route path="/" exact component={LandingPage} />
       <Route path="/implicit/callback" component={LoginCallback} />
       <Route path="/login" exact component={CustomLoginComponent} />
