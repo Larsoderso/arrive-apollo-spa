@@ -66,9 +66,8 @@ const Navbar = () => {
           </Menu.Item>
         )}
         {!authState.isPending && !authState.isAuthenticated && (
-          <Menu.Item as="a" onClick={login}>
-            Login
-          </Menu.Item>
+            <div onClick={login} style={{width: '90px', height: '35px', background: 'black', color: 'white', textAlign: 'center', lineHeight: '35px'}}> Sign in </div>
+         
         )}
       </div>
       <Menu fixed="top" inverted style={{ display: "none" }}>
