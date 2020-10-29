@@ -44,10 +44,16 @@ const Navbar = () => {
         </svg>
         </a>
         <div style={{ display: "flex", width: "480px", marginLeft: "auto" }}>
-        <a href="/docs">
-          <div className="am_header_cat">Docs</div></a>
-          <a href="/status">
-          <div className="am_header_cat">Status</div></a>
+
+        {authState.isAuthenticated && (
+        <a className="am_header_cat" href="/docs">
+       docs</a>
+        )}
+       <a className="am_header_cat" href="/status">
+          <div className="am_header_cat">Status</div>
+          </a>
+
+
           <div className="am_header_cat">Open Data</div>
           <div className="am_header_cat">Use Cases</div>
 
@@ -56,7 +62,6 @@ const Navbar = () => {
           )}
 
 
-          <div>LD</div>
         </div>
 
         {authState.isAuthenticated && (
