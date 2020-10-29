@@ -5,7 +5,7 @@ import config from "./config";
 import CustomLoginComponent from "./Login";
 import Navbar from "./NavBar";
 import Profile from "./Profile";
-import Home from "./Home";
+//import Home from "./Home";
 import StatusPage from "./front-yard/status-page";
 import LandingPage from "./front-yard/landing-page";
 
