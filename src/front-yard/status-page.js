@@ -1,6 +1,13 @@
 //import { useOktaAuth } from "@okta/okta-react";
 import React from "react";
 
+import {
+  XYPlot,
+  XAxis,
+  YAxis,
+  VerticalGridLines,
+  HorizontalGridLines,
+} from "react-vis";
 
 const StatusPage = () => {
   //const { authState, authService } = useOktaAuth();
@@ -8,7 +15,17 @@ const StatusPage = () => {
  
   return (
 <div style={{paddingLeft: '2vw', paddingRight: '2vw', paddingTop: '24px', paddingBottom: '22px', fontSize: '22px'}}><div>Status</div>
-  <div style={{background: '#FFFFFF', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', borderRadius: '7px', width: '780px', height: '140px', margin: '0 auto', marginBottom: '22px'}} />
+  <div style={{background: '#FFFFFF', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', borderRadius: '7px', width: '780px', height: '140px', margin: '0 auto', marginBottom: '22px'}}>
+  <XYPlot width={300} height={300} stackBy="y">
+          <VerticalGridLines />
+          <HorizontalGridLines />
+          <XAxis />
+          <YAxis />
+          <BarSeries data={[{x: 2, y: 10}, {x: 4, y: 5}, {x: 5, y: 15}]} />
+          <BarSeries data={[{x: 2, y: 12}, {x: 4, y: 2}, {x: 5, y: 11}]} />
+        </XYPlot>
+
+  </div>
   <div style={{width: '780px', height: '85px', background: 'rgba(249, 249, 249, 0)', display: 'flex', flexDirection: 'row', margin: '0px auto'}}><div style={{padding: '12px'}}><svg width={44} height={52} viewBox="0 0 44 52" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 12.5V38.5L22 51.5V38.5L11 32.5V19.5L0 12.5Z" fill="#1E91B0" /><path d="M44 12.5V38.5L22 51.5V38.5L33 32.5V19.5L44 12.5Z" fill="#239CBD" /><path d="M22 26.5L11 32.5L22 38.5L33 32.5L22 26.5Z" fill="#1A7A94" /><path d="M11 19.5L0 12.5L22 0L44 12.5L33 19.5L22 13L11 19.5Z" fill="#5DBAD3" /><path d="M22 13L11 19.5V32.5L22 26.5V13Z" fill="#1C7188" /><path d="M22 13V26.5L33 32.5V19.5L22 13Z" fill="#288DA8" /></svg></div><div style={{lineHeight: '68px', paddingLeft: '48px', fontWeight: 500, fontSize: '18px'}}>Core Service </div><div style={{width: '20px', height: '40px', background: 'rgb(104, 247, 154)', marginLeft: 'auto', marginTop: '12px'}} /></div>
   <div style={{width: '780px', height: '85px', background: 'rgba(249, 249, 249, 0)', display: 'flex', flexDirection: 'row', margin: '0px auto'}}><div style={{padding: '12px'}}><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Ebene_1" x="0px" y="0px" viewBox="0 0 100 100" style={{height: '44px'}} xmlSpace="preserve">
         <style type="text/css" dangerouslySetInnerHTML={{__html: "\n\t.st0{fill:#00A88A;}\n\t.st1{fill:#00F464;}\n" }} />
