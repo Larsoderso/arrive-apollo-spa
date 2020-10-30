@@ -7,7 +7,7 @@ import {
   YAxis,
   VerticalGridLines,
   HorizontalGridLines,
-  BarSeries 
+  BarSeries
 } from "react-vis";
 
 const StatusPage = () => {
