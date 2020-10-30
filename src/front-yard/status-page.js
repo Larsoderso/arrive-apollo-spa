@@ -16,8 +16,8 @@ const StatusPage = () => {
  
   return (
 <div style={{paddingLeft: '2vw', paddingRight: '2vw', paddingTop: '24px', paddingBottom: '22px', fontSize: '22px'}}><div>Status</div>
-  <div style={{background: '#FFFFFF', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', borderRadius: '7px', width: '780px', height: '140px', margin: '0 auto', marginBottom: '22px'}}>
-  <XYPlot width={300} height={300} stackBy="y">
+  <div style={{background: '#FFFFFF', boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.1)', borderRadius: '7px', width: '780px', height: '240px', margin: '0 auto', marginBottom: '22px', padding: 12}}>
+  <XYPlot width={700} height={180} stackBy="y">
           <VerticalGridLines />
           <HorizontalGridLines />
           <XAxis />
