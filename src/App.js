@@ -8,6 +8,7 @@ import Profile from "./Profile";
 import Home from "./Home";
 import StatusPage from "./front-yard/status-page";
 import LandingPage from "./front-yard/landing-page";
+import UseCasesPage from "./front-yard/usecases-page";
 
 const HasAccessToRouter = () => {
   const history = useHistory(); // example from react-router
@@ -25,7 +26,7 @@ const HasAccessToRouter = () => {
       <Route path="/status" exact component={StatusPage} />
       <Route path="/" exact component={LandingPage} />
       <Route path="/docs" exact component={Home} />
-
+      <Route path="/use-cases" component={UseCasesPage} />
       <Route path="/implicit/callback" component={LoginCallback} />
       <Route path="/login" exact component={CustomLoginComponent} />
       <SecureRoute path="/profile" component={Profile} />

@@ -55,7 +55,8 @@ const Navbar = () => {
 
 
           <div className="am_header_cat">Open Data</div>
-          <div className="am_header_cat">Use Cases</div>
+          <a className="am_header_cat" href="/use-cases">
+Use Cases</a>
 
           {authState.isAuthenticated && (
           <div className="am_header_cat">Apps</div>
