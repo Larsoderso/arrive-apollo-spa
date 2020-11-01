@@ -20,8 +20,6 @@ const StatusPage = () => {
   <XYPlot width={700} height={180} stackBy="y">
           <VerticalGridLines />
           <HorizontalGridLines />
-          <XAxis />
-          <YAxis />
           <VerticalBarSeries data={[{x: 1, y: 10}, {x: 2, y: 5}, {x: 3, y: 15}]} />
           <VerticalBarSeries data={[{x: 1, y: 12}, {x: 2, y: 2}, {x: 3, y: 11}]} />
         </XYPlot>
