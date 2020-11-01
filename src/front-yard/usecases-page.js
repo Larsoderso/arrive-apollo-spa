@@ -1,14 +1,6 @@
 //import { useOktaAuth } from "@okta/okta-react";
 import React from "react";
 
-import {
-  XYPlot,
-  XAxis,
-  YAxis,
-  VerticalGridLines,
-  HorizontalGridLines,
-  VerticalBarSeries
-} from "react-vis";
 
 const UsecasesPage = () => {
   //const { authState, authService } = useOktaAuth();
