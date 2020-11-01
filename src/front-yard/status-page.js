@@ -3,8 +3,6 @@ import React from "react";
 
 import {
   XYPlot,
-  XAxis,
-  YAxis,
   VerticalGridLines,
   HorizontalGridLines,
   VerticalBarSeries
