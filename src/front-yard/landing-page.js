@@ -124,11 +124,14 @@ const LandingPage = () => {
         <div
           style={{
             width: "100%",
-            height: "100vh",
+            height: "800px",
             background: "#ECF2F2",
             paddingTop: "44px"
           }}
         >
+          <div style={{width: "100%", height: "120px"}}>
+
+          </div>
           <svg
             width={370}
             height={222}
